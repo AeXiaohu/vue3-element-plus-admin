@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bff8a"],{4091:function(n,e,a){"use strict";a.r(e);var t=a("7a23"),c=Object(t["fb"])("data-v-67885230"),s=c((function(n,e,a,c,s,u){return Object(t["D"])(),Object(t["i"])("p",null,"业务管理 组件")})),u={name:"BusinessManage"};u.render=s,u.__scopeId="data-v-67885230";e["default"]=u}}]);
+//# sourceMappingURL=chunk-2d0bff8a.9cfa19aa.js.map
