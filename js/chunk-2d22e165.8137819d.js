@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22e165"],{f9ea:function(e,n,a){"use strict";a.r(n);var t=a("7a23"),c=Object(t["fb"])("data-v-320a334c"),d=c((function(e,n,a,c,d,u){return Object(t["D"])(),Object(t["i"])("p",null,"设置 组件")})),u={name:"Settings"};u.render=d,u.__scopeId="data-v-320a334c";n["default"]=u}}]);
+//# sourceMappingURL=chunk-2d22e165.8137819d.js.map
