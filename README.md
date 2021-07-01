@@ -1,7 +1,5 @@
 # vue3-element-plus-admin
 
-------
-
 ## 介绍
 
 基于vue3+element-plus的后台管理系统
@@ -39,8 +37,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 浏览器支持
-
-------
 
 现代浏览器
 
