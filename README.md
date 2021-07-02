@@ -4,7 +4,7 @@
 
 基于vue3+element-plus的后台管理系统
 
-前后端分离：前端axios请求→后端node.js+express查询mysql数据库→返回数据给前端页面展示
+前后端分离：前端axios请求→后端node.js+express[, java springboot]查询mysql数据库→返回数据给前端页面展示
 
 依赖：typescript、sass、axios、echarts、element-plus、vue-ruoter、vuex、velocity-animate、aos animate...
 
