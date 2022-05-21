@@ -8,7 +8,7 @@
 
 依赖：typescript、sass、axios、echarts、element-plus、vue-ruoter、vuex、velocity-animate、aos animate...
 
-目前正在边学习边更新，也可以作为示例，作为简单参考
+可以作为示例，作为简单参考
 
 [在线预览地址](https://aexiaohu.github.io/vue3-element-plus-admin/)
 
