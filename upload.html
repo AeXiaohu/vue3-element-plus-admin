@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input type="file" id="file"><br>
+        <button type="button" onclick="upload(this)">上传</button>
+    </form>
+    <script>
+        function upload(el) {
+            let file = document.querySelector('#file').files[0];
+            fetch('https://test-1251927395.cos.ap-beijing.myqcloud.com/' + 'test.png', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': file.type,
+                    'Authorization': 'q-sign-algorithm=sha1&q-ak=AKID53lDPO6Wq7D5h5FNGwSjjUzFI8pJZbR4&q-sign-time=1658495295;1658498895&q-key-time=1658495295;1658498895&q-header-list=&q-url-param-list=&q-signature=208c4b30e5e4642544a92c48b69fb1025fbe3058'
+                },
+                body: file,
+            });
+        }
+    </script>
+</body>
+
+</html>
